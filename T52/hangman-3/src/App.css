@@ -1,0 +1,76 @@
+body {
+  background-image: url('./Components/images/water-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Handlee', cursive;
+  background-color: aquamarine;
+}
+
+.header1 {
+  font-size: 3rem;
+  color: #fea4bd;
+  text-shadow: 2px 2px 2px #000000;
+  margin: 20px;
+}
+
+.guesses-remaining {
+  color: #ff00ff;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.keyboard {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.keyboard button {
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+  width: 50px;
+  height: 25px;
+  background-color: #ffff00;
+  color: #000000;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hangman-gif {
+  width: 200px;
+  height: 200px;
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-size: 2rem;
+  background-color: greenyellow;
+  color: #ffffff;
+}
+
+.help-button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-size: 2rem;
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.game-over {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+}
